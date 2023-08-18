@@ -11,7 +11,7 @@ import { ReactIcons } from "react-icons";
 
 const benefitOne = {
   title: "Here is What I Can Offer",
-  desc: "These are the services I offer .",
+  desc: "These are the Quality services that I offer .",
   bullets: [
     {
       title: "Web Development",

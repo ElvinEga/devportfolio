@@ -5,8 +5,8 @@ import SectionTitle from "./sectionTitle";
 const Contact = () => {
   return (
     <Container>
-      <SectionTitle pretitle="Contact Us" title="Getting in Touch With Us">
-        Thank you for visiting our website! We're happy to help answer any
+      <SectionTitle pretitle="Contact" title="Getting in Touch With Me">
+        Thank you for visiting my website! I am happy to help answer any
         questions you may have. Please fill out the form below and we'll get
         back to you as soon as possible.
       </SectionTitle>
@@ -24,7 +24,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="name"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
           </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
           </div>
@@ -55,12 +55,12 @@ const Contact = () => {
               <textarea
                 id="message"
                 name="message"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 dark:border-gray-600 dark:bg-white focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
           </div>
           <div class="p-2 w-full">
-            <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">
+            <button class="flex mx-auto text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">
               Send Message
             </button>
           </div>

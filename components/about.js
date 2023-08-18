@@ -11,7 +11,7 @@ const About = (props) => {
         <div className="bg-grey-50" id="about">
           <div className="container flex flex-col items-center pt-16 md:pt-20 lg:flex-row">
             <div className="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-              <h2 className="text-sm font-bold tracking-tight text-green-600 uppercase">
+              <h2 className="text-sm font-bold tracking-tight text-purple-600 uppercase">
                 About Me
               </h2>
               <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
