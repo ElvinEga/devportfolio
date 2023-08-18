@@ -1,64 +1,79 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
+  ServerIcon,
+  GlobeAltIcon,
   DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  PaintBrushIcon,
+  ComputerDesktopIcon,
+  UserIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/box_ripe.jpg";
-import benefitTwoImg from "../public/img/countryside_woman.jpg";
+import { ReactIcons } from "react-icons";
 
 const benefitOne = {
-  title: "Smart Farming is Changing the Game",
-  desc: "From increased efficiency and productivity to environmental sustainability and competitive advantage, discover the many benefits of embracing smart farming technology.",
-  image: benefitOneImg,
+  title: "Here is What I Can Offer",
+  desc: "These are the services I offer .",
   bullets: [
     {
-      title: "Increased efficiency",
-      desc: " Automates and optimizes farming processes to save time and resources.",
-      icon: <FaceSmileIcon />,
+      title: "Web Development",
+      desc: "Custom web solutions tailored to meet your unique needs, built using cutting-edge technologies like HTML5, CSS3, JavaScript, and more.",
+      icon: <GlobeAltIcon className="w-6 h-6" />,
     },
     {
-      title: "Reduced costs",
-      desc: "Minimizes resource waste and unnecessary expenses, maximizing profitability for farmers.",
-      icon: <ChartBarSquareIcon />,
+      title: "Mobile Development",
+      desc: "Native mobile apps for iOS and Android, designed for a seamless user experience and integrated with your existing systems.",
+      icon: <DevicePhoneMobileIcon className="w-6 h-6" />,
     },
     {
-      title: "Scalability",
-      desc: "Adapts to the unique needs of small, medium, or large-scale farming operations, making it accessible to all.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Graphic Design",
+      desc: "Eye-catching graphics, logos, icons, and infographics that communicate your brand values and enhance your online presence.",
+      icon: <PaintBrushIcon className="w-6 h-6" />,
     },
     {
-      title: "Competitive Advantage",
-      desc: "Differentiates farmers who adopt the solution, giving them an edge in the market and increasing their reputation and revenue.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Web Design",
+      desc: "User-friendly website design prioritizing UX and UI, created using the latest design trends and best practices to engage visitors and drive conversions.",
+      icon: <ComputerDesktopIcon className="w-6 h-6" />,
+    },
+    {
+      title: "Backend Development",
+      desc: "Robust, scalable backend systems powering your web or mobile application, developed using languages like Python, Ruby, PHP, and Node.js.",
+      icon: <ServerIcon className="w-6 h-6" />,
+    },
+    {
+      title: "UI/UX Design",
+      desc: " Intuitive interface design balancing form and function, tested and refined through user research and wireframing to ensure a seamless user experience.",
+      icon: <UserIcon className="w-6 h-6" />,
     },
   ],
 };
 
-const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
-  bullets: [
+const langIcons = {
+  title: "My Languages",
+  icons: [
     {
-      title: "Collaboration",
-      desc: "Facilitates knowledge sharing and collaboration among farmers, clients, and industry experts, driving innovation and progress in agriculture..",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Html",
+      url: "/img/brands/html.svg",
     },
     {
-      title: "Environmental sustainability",
-      desc: "Promotes eco-friendly practices, conserving resources and protecting the environment for future generations.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "React",
+      url: "/img/brands/react.svg",
     },
     {
-      title: "Increased traceability",
-      desc: " Ensures transparency and accountability across the supply chain, building trust with end-consumers.",
-      icon: <SunIcon />,
+      title: "vue",
+      url: "/img/brands/vue.svg",
+    },
+    {
+      title: "Javascript",
+      url: "/img/brands/javascript.svg",
+    },
+    {
+      title: "flutter",
+      url: "/img/brands/flutter.svg",
+    },
+    {
+      title: "Django",
+      url: "/img/brands/django.svg",
     },
   ],
 };
 
-export { benefitOne, benefitTwo };
+export { benefitOne, langIcons };

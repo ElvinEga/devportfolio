@@ -4,18 +4,12 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
-  const navigation = [
-    "Product",
-    "Features",
-    "Services",
-    "About Us",
-    "Contact Us",
-  ];
-  const linkUrl = ["#product", "#features", "#services", "#about", "#contact"];
+  const navigation = ["Home", "About Me", "Portfolio", "Contact"];
+  const linkUrl = ["/", "#about", "#portfolio", "#contact"];
 
   return (
     <div className="w-full">
-      <nav className="container">
+      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
