@@ -4,7 +4,7 @@ import SectionTitle from "./sectionTitle";
 
 const Contact = () => {
   return (
-    <Container>
+    <Container className="p-0">
       <SectionTitle pretitle="Contact" title="Getting in Touch With Me">
         Thank you for visiting my website! I am happy to help answer any
         questions you may have. Please fill out the form below and we'll get

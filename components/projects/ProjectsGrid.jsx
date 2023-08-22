@@ -28,9 +28,9 @@ function ProjectsGrid() {
   });
 
   return (
-    <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+    <Container className="flex flex-wrap p-0 lg:gap-10 lg:flex-nowrap ">
       <div className="w-full">
-        <div className="mt-10 sm:mt-16">
+        <div>
           <div
             className="
                         flex

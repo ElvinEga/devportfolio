@@ -2,15 +2,8 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
-
-import { benefitOne, benefitTwo, langIcons } from "../components/data";
-import Video from "../components/video";
-import Benefits from "../components/benefits";
+import { featureOne, langIcons } from "../components/data";
 import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
-import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
 import Myfeatures from "../components/features";
 import Contact from "../components/contact";
 import About from "../components/about";
@@ -30,34 +23,19 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      {/* <SectionTitle pretitle="About Me"></SectionTitle> */}
       <About data={langIcons} />
-      {/* <div id="product"></div> */}
-      {/* <Benefits data={benefitOne} /> */}
       <div id="features"></div>
-      <Myfeatures data={benefitOne} />
-      {/* <div id="services"></div> */}
-      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
+      <Myfeatures data={featureOne} />
       <div id="about"></div>
-      <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said"
-      >
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+      <SectionTitle pretitle="Portfolio" title="Latest Projects">
+        Here are some recent projects I've been working on, including my own
+        personal projects.
       </SectionTitle>
-      {/* <Testimonials /> */}
+      <div id="portfolio"></div>
       <ProjectsGrid />
-      {/* <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle> */}
-      {/* <Faq /> */}
 
       <Contact />
-      {/* <Cta /> */}
       <Footer />
-      {/* <PopupWidget /> */}
     </>
   );
 };

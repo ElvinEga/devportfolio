@@ -9,7 +9,7 @@ import {
 
 import { ReactIcons } from "react-icons";
 
-const benefitOne = {
+const featureOne = {
   title: "Here is What I Can Offer",
   desc: "These are the Quality services that I offer .",
   bullets: [
@@ -76,4 +76,4 @@ const langIcons = {
   ],
 };
 
-export { benefitOne, langIcons };
+export { featureOne, langIcons };
