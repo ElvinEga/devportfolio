@@ -6,7 +6,7 @@ This project utilizes Next.js for frontend development and Tailwind CSS for styl
 
 ## Demo URL
 
-[https://devportfolio-delta.vercel.app/](https://devportfolio-delta.vercel.app/)
+[https://devportfolio-wine.vercel.app/](https://devportfolio-wine.vercel.app/)
 
 ## Technologies
 
