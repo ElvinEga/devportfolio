@@ -13,10 +13,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Organica - Organic Marketplace</title>
+        <title>DevPortfolio - Developer Portfolio</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Web Developer Portfolio page in Tailwindcss"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

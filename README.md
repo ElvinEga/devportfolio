@@ -1,12 +1,12 @@
-# Organico - Smart Farming App Landing Page
+# DevPortfolio - Developer Portfolio
 
-Welcome to the README file for Organico, a landing site for a Smart Farming App. This project utilizes Next.js for frontend development and Tailwind CSS for styling. It is designed to showcase the features and benefits of the Smart Farming App, attracting potential users and investors.
+This project utilizes Next.js for frontend development and Tailwind CSS for styling. It is designed to showcase the Developers Portfolio.
 
-![Screenshot 2023-08-15 002932](https://github.com/ElvinEga/organico/assets/12608507/31197662-5267-41e6-b8f8-8a9dd79af5b4)
+![Screenshot 2023-08-22 122404](https://github.com/ElvinEga/devportfolio/assets/12608507/d2db1793-4b92-44f7-b5bb-e9344087aded)
 
 ## Demo URL
 
-[https://organico-delta.vercel.app/](https://organico-delta.vercel.app/)
+[https://devportfolio-delta.vercel.app/](https://devportfolio-delta.vercel.app/)
 
 ## Technologies
 
@@ -28,11 +28,11 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/organico.git
+   git clone https://github.com/your-username/devportfolio.git
    ```
 
 2. Navigate to the project directory:
-   `cd organico`
+   `cd devportfolio`
 3. Install dependencies:
    `npm install`
 
@@ -42,11 +42,11 @@ To start the development server and view the landing page, run the following com
 
 `npm run dev`
 
-Open your web browser and visit http://localhost:3000 to see the Organico landing page in action.
+Open your web browser and visit http://localhost:3000 to see the Devportfolio landing page in action.
 
 ## Deployment
 
-Follow these steps to deploy the Organico landing page:
+Follow these steps to deploy the Devportfolio landing page:
 
 1. Build the production-ready optimized version of the project:
    `npm run build`
