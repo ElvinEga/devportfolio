@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Real Estate App",
     url: "google-health-platform",
     category: "Mobile Application",
-    img: "/img/app1.jpg         ",
+    img: "/img/app1.jpg",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt",
     ProjectHeader: {
       title: "Marketplace",
@@ -104,7 +104,7 @@ export const projectsData = [
     title: "Finance App",
     url: "google-health-platform",
     category: "Mobile Application",
-    img: "/img/app2.jpg         ",
+    img: "/img/app2.jpg",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt",
     ProjectHeader: {
       title: "Marketplace",
@@ -117,7 +117,7 @@ export const projectsData = [
     title: "Betpro",
     url: "google-health-platform",
     category: "Mobile Application",
-    img: "/img/app3.jpg         ",
+    img: "/img/app3.jpg",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt",
     ProjectHeader: {
       title: "Marketplace",
