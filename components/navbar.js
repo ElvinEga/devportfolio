@@ -71,10 +71,10 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link
-                      href="/"
+                      href="https://github.com/ElvinEga/devportfolio"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-purple-600 rounded-md lg:ml-5"
                     >
-                      Resume
+                      Download
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -103,10 +103,10 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <ThemeChanger />
           <Link
-            href="/"
+            href="https://github.com/ElvinEga/devportfolio"
             className="px-6 py-2 text-white bg-purple-600 rounded-md md:ml-5"
           >
-            Resume
+            Download
           </Link>
         </div>
       </nav>
